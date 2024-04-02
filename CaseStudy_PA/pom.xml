@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>test_group1</groupId>
+  <artifactId>test_artifact1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>test</name>
+  <description>test</description>
+  <dependencies>   
+<dependency>  
+<groupId>org.testng</groupId>  
+<artifactId>testng</artifactId>  
+<version>6.8</version>  
+<scope>compile</scope>  
+</dependency>  
+<dependency>  
+<groupId>org.seleniumhq.selenium</groupId>  
+<artifactId>selenium-java</artifactId>  
+<version>3.141.59</version>  
+</dependency>  
+<dependency>  
+<groupId>org.seleniumhq.selenium</groupId>  
+<artifactId>selenium-chrome-driver</artifactId>  
+<version>2.50.0</version>  
+</dependency>  
+<dependency>  
+<groupId>com.google.guava</groupId>  
+<artifactId>guava</artifactId>  
+<version>22.0</version>  
+</dependency>  
+<dependency>  
+<groupId>com.google.api-client</groupId>  
+<artifactId>google-api-client-appengine</artifactId>  
+<version>1.23.0</version>  
+<exclusions>  
+<exclusion>  
+<groupId>com.google.guava</groupId>  
+<artifactId>guava-jdk5</artifactId>  
+</exclusion>  
+</exclusions>  
+</dependency>  
+<dependency>  
+<groupId>com.google.code.gson</groupId>  
+<artifactId>gson</artifactId>  
+<version>2.2.4</version>  
+</dependency>  
+</dependencies> 
+</project>
